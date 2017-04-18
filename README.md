@@ -18,3 +18,25 @@ for communication between the scale and the web application.
 ### Mobile View
 ![mobile](./public/snap-mobile.png)
 
+# Usage
+```
+$ node sbi-httpd.js --help
+
+  Usage: sbi-httpd [options]
+
+  Options:
+
+    -h, --help              output usage information
+    -V, --version           output the version number
+    -d --ttyDevice <dev>    device name [/dev/tty.USB0]
+    -b --baudRate <baud>    1200, [9600] or 38400
+    --dataBits <bits>       7 or [8]
+    --stopBits <bits>       0 or [1]
+    --parity <parity>       odd, even or [none]
+    --rtscts                ready-to-send, clear-to-send
+    --xon                   xon handshake
+    --xoff                  xoff handshake
+    --xany                  xany handshake
+    --responseTimeout <ms>  response timeout [200] milliseconds
+    --precision <places>    weight precision [1] or 2 decimal places
+```
