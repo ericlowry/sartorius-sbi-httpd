@@ -1,0 +1,37 @@
+{
+  "name": "sartorius-sbi-httpd",
+  "version": "0.0.1",
+  "description": "A simple Sartorius Scale web interface using the SBI protocol",
+  "main": "sbi-httpd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "start": "node sbi-httpd.js",
+    "type": "git",
+    "url": "git+https://github.com/ericlowry/sartorius-sbi-httpd.git"
+  },
+  "keywords": [
+    "Sartorius",
+    "Scale",
+    "Balance",
+    "SBI",
+    "web",
+    "interface",
+    "socket.io",
+    "bootstrap"
+  ],
+  "author": "Eric Lowry <eric@myrealms.org> (https://github.com/ericlowry)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/ericlowry/sartorius-sbi-httpd/issues"
+  },
+  "homepage": "https://github.com/ericlowry/sartorius-sbi-httpd#readme",
+  "dependencies": {
+    "commander": "2.9.0",
+    "debug": "2.6.3",
+    "express": "4.15.2",
+    "sartorius-sbi": "0.0.1",
+    "socket.io": "1.7.3"
+  }
+}
