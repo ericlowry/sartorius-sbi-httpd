@@ -18,6 +18,14 @@ for communication between the scale and the web application.
 ### Mobile View
 ![mobile](./public/snap-mobile.png)
 
+# Installation
+```
+git clone https://github.com/ericlowry/sartorius-sbi-httpd.git
+cd sartorius-sbi-httpd
+npm install
+node sbi-httpd.js --help
+```
+
 # Usage
 ```
 $ node sbi-httpd.js --help
