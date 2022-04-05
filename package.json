@@ -29,9 +29,8 @@
   "homepage": "https://github.com/ericlowry/sartorius-sbi-httpd#readme",
   "dependencies": {
     "commander": "2.9.0",
-    "debug": "2.6.3",
-    "express": "4.15.2",
-    "sartorius-sbi": "0.0.1",
-    "socket.io": "1.7.3"
+    "debug": "^4.3.4",
+    "express": "^4.17.3",
+    "socket.io": "^4.4.1"
   }
 }
